@@ -1,0 +1,282 @@
+html, body {
+  overflow-x: hidden;
+}
+
+body {
+  position: relative;
+}
+
+/* HEADER ---------------------------------------------*/
+
+header {
+  position: fixed;
+  width: 100%;
+  top: 0;
+  left: 0;
+}
+
+/* Add background color to the top navigation */
+.topnav {
+  overflow: hidden;
+  background-color: white;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+  float: left;
+  display: block;
+  color: #2969b3;
+  font-weight: bold;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 21px;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+  background-color: #2969b3;
+  color: white;
+}
+
+/* Add an active class to highlight the current page */
+.topnav a.active {
+  background-color: black;
+  color: white;
+}
+
+/* Hide the link that should open and close the topnav on small screens */
+.topnav .icon {
+  display: none;
+}
+
+/* MAIN -----------------------------------------------*/
+
+main {
+  text-align: center;
+}
+ 
+ /*section {
+  margin-top: 40px; 
+}*/
+
+/* section sizing */
+.sm-section {
+  min-height: 33vh;
+}
+
+.md-section {
+  min-height: 66vh;
+}
+
+.lg-section {
+  min-height: 99vh;
+}
+
+h1 {
+  font-size: 50px;
+}
+
+h2 {
+  font-size: 30px;
+}
+
+
+/* BANNER SECTION -------------------------------------*/
+#banner {
+  margin-top: 40px;
+}
+
+.container {
+  position: relative;
+}
+
+#banner-text {
+  position: absolute;
+  left:100px;
+  bottom:250px;
+  color: white;
+}
+
+#banner-img {
+  width: 100%;
+  height: 600px;
+}
+
+/* INTRO SECTION -------------------------------------*/
+
+#intro-desc {
+  background-color: #2969b3;
+  color: white;
+}
+
+.text-wrap {
+  margin-right: 50px;
+  margin-left: 50px;
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+#intro-text {
+  font-size: 48px;
+}
+
+.bold-text {
+  font-weight: bold;
+}
+
+/* SERVICE SECTION ------------------------------------*/
+
+figcaption {
+  display: block;
+}
+
+.relative {
+  position: relative;
+}
+
+.caption-wrapper {
+  position: absolute;
+  top: auto;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  background: rgba(0,0,0,.7);
+  max-height: 100%;
+  box-sizing: content-box;
+  width: 100%;
+  overflow-y: auto;
+  color: white;
+  font-size: 24px;
+}
+
+.img-wrap {
+  display: flex;
+  width: 100%;
+  justify-content: space-evenly;
+}
+
+.serv-img {
+  max-height: 500px;
+  width: auto;
+  cursor: pointer;
+}
+
+/* CLIP SECTION ---------------------------------------*/
+
+#test-clips {
+  background-color: #dfa04e;
+  color: white;
+  font-size: 36px;
+}
+
+.clip-wrap {
+  padding-right: 150px;
+  padding-left: 150px;
+  padding-top: 75px;
+  padding-bottom: 25px;
+}
+
+.clip-line {
+  background-color: white;
+  height: 1.5px;
+  margin-left: 150px;
+  margin-right: 150px;
+}
+
+.left-text {
+  text-align: left;
+}
+
+.right-text {
+  text-align: right;
+}
+
+#mid-clip {
+  font-size: 48px;
+}
+
+/* NEWSLETTER -----------------------------------------*/
+
+#news-sub {
+  font-size: 24px;
+}
+
+.spacer {
+  height: 50px;
+}
+
+/* Style form container */
+.form-cont {
+  border-radius: 5px;
+  padding: 20px;
+  width: 85%;
+  margin: auto;
+  text-align: center;
+  justify-content: space-evenly;
+}
+
+/* Style form fields */
+input[type=text], input[type=tel], select {
+  display: inline;
+  padding: 25px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  margin-left: 10px;
+  margin-right: 10px;
+  resize: vertical;
+}
+
+/* Style submit button */
+.form-but {
+  background-color: #dfa04e;
+  border: none;
+  color: white;
+  padding: 10px 25px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 20px;
+  cursor: pointer;
+  margin: 25px;
+}
+
+.form-but:hover {
+  background-color: #4CAF50;
+}
+
+
+/* SIGN-OFF --------------------------------------------*/
+
+/*designed by & contact*/
+#contact-section {
+  color: black;
+  text-align: center;
+  min-height: 33vh;
+}
+
+.contact-links {
+  height: auto;
+  width: 25%;
+  display: inline-block;
+  padding: 20px;
+}
+
+.link-cont {
+  float: left;
+  width: 25%;
+}
+
+.contact-img {
+  height: 75px;
+  width: 75px;
+}
+
+#git-logo {
+  height: 75px;
+  width: 100px;
+}

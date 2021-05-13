@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>CodePen - Landing Page</title>
+  <link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Landing Page</title>
+    <style src = "style.css">
+    </style>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+  </head>
+  
+  <body>
+    
+    <script src = "script.js">
+    </script>
+    
+    <header>
+      <nav>
+        <div class = "topnav" id = "left-nav">
+        <a href = "#banner">Welcome</a>
+        <a href = "#intro-desc">Intro</a>
+        <a href = "#service-overview">Overview</a>
+        <a href = "#test-clips">Reviews</a>
+        <a href = "#newsletter">Newsletter</a>
+        <a href="javascript:void(0);" class="icon" onclick="responsiveNav()">
+    <i class="fa fa-bars"></i>
+  </a>
+        </div>
+         </nav>
+    </header>
+    
+    <main>
+      
+      <div id = "banner" class = "md-section">
+        <section id = "section1">
+          <div class = "container">
+            <img id = "banner-img" src = "https://images.pexels.com/photos/3618162/pexels-photo-3618162.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940">
+          <h1 id = "banner-text">Lorem Ipsum</h1>
+          </div>
+        </section>
+      </div>
+      
+      <div id = "intro-desc" class = "sm-section">
+        <section id = "section2">
+          <div class = "text-wrap">
+          <div id = "intro-text">
+            <span class = "main-text">Lorem ipsum dolor sit amet, vide rationibus has at, </span><span class = "bold-text">nusquam atomorum corrumpit sea id</span><span class = "main-text">, nobis propriae vix ex.</span>
+            </div>
+            <h2 id = "intro-text2">An ius facilisi incorrupte, dicam impedit dignissim quo ex. Tota delenit reprimique eum ut.</h2>
+          </div>
+        </section>
+      </div>
+      
+      <div id = "service-overview" class = "lg-section">
+        <section id = "section3">
+              <div class = "img-wrap">
+              <figure class = "relative">
+                <img id = "serv1" class = "serv-img" src = "https://images.pexels.com/photos/3184418/pexels-photo-3184418.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940">
+                <figcaption class = "caption-wrapper">Lorem Ipsum</figcaption>
+              </figure>
+              <figure class = "relative">
+                <img id = "serv2" class = "serv-img" src = "https://images.pexels.com/photos/163064/play-stone-network-networked-interactive-163064.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940">
+                <figcaption class = "caption-wrapper">Lorem Ipsum</figcaption>
+              </figure>
+                 </div> 
+          <div class = "img-wrap">
+                <figure class = "relative">
+                <img id = "serv3" class = "serv-img" src = "https://images.pexels.com/photos/1000445/pexels-photo-1000445.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940">
+                <figcaption class = "caption-wrapper">Lorem Ipsum</figcaption>
+              </figure>
+                     <figure class = "relative">
+                <img id = "serv4" class = "serv-img" src = "https://images.pexels.com/photos/3183150/pexels-photo-3183150.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940">
+                <figcaption class = "caption-wrapper">Lorem Ipsum</figcaption>
+              </figure>
+          </div>
+                
+        </section>
+      </div>
+      
+      <div id = "test-clips" class = "md-section">
+        <section id = "section4">
+          <div class = "clip-wrap">
+            <span class = "left-text">Lorem ipsum dolor sit amet, movet delenit sit cu, mel ludus choro rationibus ad. No natum quidam delicatissimi his, cum iuvaret fabulas maluisset at. Stet fierent ne vis. Nec in oporteat dissentias, duo saepe dignissim te. Mel labitur dignissim ne.<p class = "bold-text">-C.C.</p></span>
+          </div>
+          <hr class = "clip-line">
+          <div class = "clip-wrap" id = "mid-clip">
+            <span class = "right-text">Lorem ipsum dolor sit amet, movet delenit sit cu, mel ludus choro rationibus ad. No natum quidam delicatissimi his, cum iuvaret fabulas maluisset at. Stet fierent ne vis. Nec in oporteat dissentias, duo saepe dignissim te. Mel labitur dignissim ne.<p class = "bold-text">-D.D.</p></span>
+          </div>
+          <hr class = "clip-line">
+          <div class = "clip-wrap">
+            <span class = "left-text">Lorem ipsum dolor sit amet, movet delenit sit cu, mel ludus choro rationibus ad. No natum quidam delicatissimi his, cum iuvaret fabulas maluisset at. Stet fierent ne vis. Nec in oporteat dissentias, duo saepe dignissim te. Mel labitur dignissim ne.<p class = "bold-text">-E.E.</p></span>
+          </div>
+        </section>
+      </div>
+      
+      <div id = "newsletter" class = "sm-section">
+        <section id = "section5">
+          <h1 id = "news-header">Newletter Sign-up</h1>
+          <p id = "news-sub">Sign up with your email address to receive news and updates.</p>
+          <div class = "spacer"></div>
+          
+           <div class = "form-cont">
+          <form id = "news-form" action = "">
+            <input type = "text" id = "fname" name = "fname" required placeholder = "First Name">
+            <input type = "text" id = "lname" name = "lname" required placeholder = "Last Name">
+            <input type = "text" id = "email" name = "email" required placeholder = "Email"><br />
+            <input type = "submit" value = "Sign Up" class = "form-but">
+          </form>
+          </div>
+          
+        </section>
+      </div>
+      
+      </main>
+    
+  <br>
+  <br>
+  <hr>
+  <div id = "contact-section">
+      <section id = "contact" class = "container">
+        <h2 id = "contact-title">Designed & Coded by Cole Crum</h2>
+     <div class="contact-links">
+      <div class = "link-cont" id = "git-cont">
+       <a id = "profile-link" href = "https://github.com/colecrum?tab=repositories" target="_blank" class="btn contact-details"><img id = "git-logo" class = "contact-img" src = "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTHXk1n8mQe3sbaaMDgiqtSeSC8QySxLfgkaA&usqp=CAU" title = "GitHub"></a></div>
+       <div class = "link-cont" id= "pen-cont">
+    <a href="https://codepen.io/colecrum" target="_blank" class="btn contact-details"><img class="contact-img" src = "https://blog.codepen.io/wp-content/uploads/2012/06/Button-Black-Large.png" title = "CodePen" </a></div>
+         <div class = "link-cont" id = "mail-cont">
+    <a href="mailto:colemcrum@gmail.com" target="_blank" class="btn contact-details"><img class="contact-img" src = "https://lh3.googleusercontent.com/VS3B_qhOFTYsdyNfnlr98zg3HNjB_Gcs9bxVnaQO9MysAoBOXMHATClhRviImKKJV8RV-0s7hl8KeVQcij5Iagb1exHzt40x679l8Q=w0" title = "Email"></a></div>
+         <div class = "link-cont" id = "phone-cont">
+    <a href="tel:512-517-8503" target="_blank" class="btn contact-details"><img class="contact-img" src = "https://cdn4.iconfinder.com/data/icons/phones-colored/48/JD-32-512.png" title = "Phone"></a></div>
+  </div>       
+        </div>
+      </section>
+    </div>
+    
+  </body>
+</html>
+<!-- partial -->
+  <script  src="./script.js"></script>
+
+</body>
+</html>
